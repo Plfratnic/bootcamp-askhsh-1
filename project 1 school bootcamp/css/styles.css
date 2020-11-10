@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(../image/kithara.jpg);
+    height: 70vh;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+.header_active{
+    border-bottom:2px solid black;
+}
+.header_navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+.header_ul{
+    display:flex;
+    margin: auto 10rem;
+
+}
+.header_li{
+    list-style: none;
+    margin: 2rem 2rem;
+}
+.header_link{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+
+}
+.header_text-container{
+    text-align: center;
+    margin-top: 3rem;
+}
+.header_p{
+    margin-top: 1rem;
+    color:white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.header_h1{
+    font-size:3rem;
+    color: white;
+}
+.section{
+    text-align: center;
+    color: tomato;
+    font-size: larger;
+}
